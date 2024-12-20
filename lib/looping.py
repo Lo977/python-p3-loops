@@ -6,7 +6,7 @@ def happy_new_year():
     print(i)
     i-=1
     print ("Happy New Year!")
-    # pass
+    pass
 
 def square_integers(int_list):
 
@@ -23,3 +23,9 @@ def fizzbuzz():
             print("Buzz")
         else:
             print(num)
+    # for num in range(1,101):
+    #     print(f"fizzbuzz {num}" if num % 3 == 0 and num % 5 == 0 else f"fizz {num }")
+# happy_new_year()
+# square_integers()
+# fizzbuzz()
+
